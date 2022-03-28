@@ -7,7 +7,7 @@ public class PrimeNumber {
 		int Number=13;
 		boolean Flag = false;
 		
-		for(int i=2;i<=Number/2;i++) {
+		for(int i=1;i<=Number/2;i++) {
 			
 			if(Number%2==0)
 				Flag=true;
